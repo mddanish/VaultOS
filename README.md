@@ -165,8 +165,8 @@ Once running, open your browser and go to:
 
 ## 📜 License
 
-This project is licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**.
+This project is licensed under the **GNU General Public License v3.0 (GPL-3.0)**.
 
-You are free to use, modify, and distribute this software, but network use is considered distribution. If you run a modified version of this software over a network, you must make the source code available to users.
+You are free to use, modify, and distribute this software.
 
 See [LICENSE](LICENSE) for more details.
