@@ -1,5 +1,5 @@
 # VaultOS
-### The Simple Desktop Container Manager
+### A Simple Desktop Container Manager
 
 VaultOS is a terminal-based user interface (TUI) for managing "Desktop" Docker containers. It allows you to effortlessly spin up ephemeral or persistent Linux desktop environments (like Alpine XFCE, Ubuntu KDE, etc.) accessible directly via your web browser.
 
@@ -18,6 +18,15 @@ Built with Python and [Textual](https://textual.textualize.io/).
     *   **Persistent**: Durable environments with data persistence.
 *   **Advanced Configuration**: Custom usernames, home directory mapping, and VNC configuration patching.
 *   **Cross-Platform**: Automatic path handling for Windows and Linux.
+
+---
+
+## 💡 Why VaultOS?
+
+VaultOS serves as a lightweight, terminal-centric alternative to robust but complex solutions like **KASM Workspaces**.
+
+*   **vs KASM**: KASM is a full enterprise suite requiring significant setup and resources. **VaultOS** is designed for developers and power users who want *instant*, disposable, or persistent desktops directly from their CLI without managing heavy infrastructure.
+*   **Simplicity**: No web admins, no databases—just Python, Docker, and your terminal.
 
 ---
 
@@ -122,10 +131,19 @@ Once running, open your browser and go to:
 
 ## 🔮 Roadmap
 
+### TUI Enhancements
 *   [ ] Live Log Viewer within the TUI.
 *   [ ] Direct Shell Access (`exec`) from the dashboard.
 *   [ ] Network Configuration (Bridge/Host mode toggles).
-*   [ ] Image Management (Prune unused desktop images).
+
+### VaultOS Web (Future)
+*   [ ] **Web-Based Interface**: A full browser-based dashboard to manage containers remotely without a terminal.
+*   [ ] **User Authentication**: Secure login system with role-based access control.
+*   [ ] **Session Management**: Persistent user sessions and connection history.
+*   [ ] **Advanced Image Management**: 
+    *   GUI for pulling/updating images.
+    *   Support for **Custom Images** (pre-loaded with specific apps/tools).
+    *   "App Store" style browser for available desktop environments.
 
 ---
 
@@ -136,6 +154,12 @@ Once running, open your browser and go to:
 **Repository**: [github.com/mddanish/vaultos](https://github.com/mddanish/vaultos)
 
 *Built with ❤️ for the open-source community.*
+
+---
+
+## 🏆 Credits & Acknowledgments
+
+*   **[LinuxServer.io](https://www.linuxserver.io/)**: A massive thank you to the LSIO team for their incredible work on [Webtop](https://docs.linuxserver.io/images/docker-webtop) Docker images. VaultOS relies heavily on these high-quality, base images to provide smooth, functional desktop environments.
 
 ---
 
