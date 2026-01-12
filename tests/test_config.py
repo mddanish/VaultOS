@@ -3,8 +3,8 @@ from config import get_desktop_label, OS_DESKTOP_MAP
 
 class TestConfig(unittest.TestCase):
     def test_get_desktop_label(self):
-        self.assertEqual(get_desktop_label("xfce"), "XFCE")
-        self.assertEqual(get_desktop_label("kde"), "KDE Plasma")
+        self.assertEqual(get_desktop_label("xfce"), "Xfce")
+        self.assertEqual(get_desktop_label("kde"), "KDE")
         self.assertEqual(get_desktop_label("unknown"), "Unknown")
         self.assertEqual(get_desktop_label(""), "Unknown")
 
