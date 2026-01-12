@@ -5,6 +5,8 @@ VaultOS is a terminal-based user interface (TUI) for managing "Desktop" Docker c
 
 Built with Python and [Textual](https://textual.textualize.io/).
 
+![VaultOS Dashboard](screenshots/TUI1.png)
+
 ---
 
 ## 🏗️ Features
@@ -118,6 +120,34 @@ python main.py
 ### Accessing the Desktop
 Once running, open your browser and go to:
 `http://localhost:<PORT>` (e.g., http://localhost:3001)
+
+---
+
+## 📸 Screenshots
+
+### Container Creation Wizard
+
+**1. Smart Defaults (Step 1)**  
+*Quickly configure the basic container properties.*
+![Step 1 Default](screenshots/Default.png)
+
+**2. Ephemeral Mode**  
+*Set up disposable environments with auto-expiry timers.*
+![Ephemeral Mode](screenshots/Epheremal1.png)
+
+**3. Persistent Mode & Advanced Options**  
+*Configure data persistence and enable advanced settings.*
+![Persistent Mode](screenshots/Persistant1.png)
+
+**4. Advanced User Configuration**  
+*Define custom usernames and map home directories for seamless integration.*
+![Advanced Config](screenshots/Persistant3.png)
+
+### The Dashboard
+
+**Dynamic Grid & Status**  
+*Monitor container health, expiry times, and resource usage.*
+![Dashboard View](screenshots/TUI2.png)
 
 ---
 
