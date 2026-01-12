@@ -149,6 +149,12 @@ Once running, open your browser and go to:
 *Monitor container health, expiry times, and resource usage.*
 ![Dashboard View](screenshots/TUI2.png)
 
+### In-Browser Experience
+
+**Seamless Desktop Access**  
+*Access your full Linux Desktop environment directly in the browser via WebTop technology. No VNC client required.*
+![Web Desktop](screenshots/browser.png)
+
 ---
 
 ## ⚠️ Important Notes & Warnings
