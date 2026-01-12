@@ -55,3 +55,15 @@ Only available in Persistent mode with "Advanced Options" checked.
 - **Home Mapping**: Maps a host directory to the custom user's home (e.g., `/data/home` -> `/home/danish`), ensuring full user persistence and correct permissions.
 
 ![Advanced Config](Persistant3.png)
+
+---
+
+## Desktop Access
+
+### In-Browser Session (`browser.png`)
+Once the container is running:
+- **WebTop Interface**: Access the full Linux GUI directly from your browser (e.g., Chrome, Firefox).
+- **Features**: Includes clipboard sharing, sound support (depending on image), and responsive resizing.
+- **URL**: Accessible at `http://localhost:<PORT>`.
+
+![Browser Desktop](browser.png)
