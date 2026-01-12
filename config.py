@@ -17,4 +17,6 @@ OS_OPTIONS = [
 ]
 
 def get_desktop_label(key):
+    if not key:
+        return "Unknown"
     return key.upper() if len(key) <= 3 else key.capitalize()
