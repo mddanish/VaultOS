@@ -5,7 +5,7 @@ VaultOS is a terminal-based user interface (TUI) for managing "Desktop" Docker c
 
 Built with Python and [Textual](https://textual.textualize.io/).
 
-![VaultOS Dashboard](screenshots/TUI1.png)
+![VaultOS Dashboard](screenshots/TUI2.png)
 
 ---
 
